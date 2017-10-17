@@ -82,9 +82,9 @@ function str_replace_first($from, $to, $subject)
 }
 
 If ($status == $online_offline){
-$guid = date("Y-m-d-h");	
+$guid = date("Y-m-d-H");	
 }else{
-$guid = date("Y-m-d-h") . mt_rand();	
+$guid = date("Y-m-d-H") . mt_rand();	
 If ($online_offline=="Miner is offline"){file_put_contents($myfile, str_replace_first('$online_offline="Miner is offline"; //DO NOT CHANGE','$online_offline="Miner is online"; //DO NOT CHANGE', $file_content));}
 If ($online_offline=="Miner is online"){file_put_contents($myfile, str_replace_first('$online_offline="Miner is online"; //DO NOT CHANGE','$online_offline="Miner is offline"; //DO NOT CHANGE', $file_content));}
 }
