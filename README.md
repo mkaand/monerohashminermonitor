@@ -32,8 +32,6 @@ You can integrate with ifttt.com (free service).
 In my case ifttt.com checks this RSS feed, if miner is working,
 it sends me a Telegram messages on every hour like that:
 
-<b>Demo: http://kaan.dogan.org/monerohash_rss.php</b>
-
 Miner is online<br>Currently, MoneroHash Miner is online [83.00 H | 0.001127049921 XMR]
 
 (Default ifttt.com checks RSS feeds every 15 minutes)
